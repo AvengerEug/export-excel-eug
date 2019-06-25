@@ -1,7 +1,7 @@
 {
   "name": "export-excel-eug",
   "description": "This is about exporting excel component",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "author": "sumarry",
   "license": "MIT",
   "private": false,
