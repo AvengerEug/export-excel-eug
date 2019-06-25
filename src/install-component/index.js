@@ -11,10 +11,8 @@ Components.forEach(component => {
    * 
    * install 方法在Vue.use() 时被调用
    */
-  console.log('component :', component)
   component.install = Vue => Vue.component(component.name, component)
+  console.log('component :', component)
 })
-
-console.log('Components :', Components)
 
 export default Components

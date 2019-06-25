@@ -24,4 +24,6 @@ import FileSaver from 'file-saver'
     FileSaver.saveAs(blob, fileName + '.' + (wopts.bookType === 'biff2' ? 'xls' : wopts.bookType))
   }
 
-export default jsonToExcel
+export {
+  jsonToExcel
+}

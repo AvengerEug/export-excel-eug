@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Utils from '@/utils'
+import { jsonToExcel } from '@/utils'
 
 export default {
   name: 'exportExcelEug',
@@ -13,7 +13,7 @@ export default {
   ],
   methods: {
     startExport () {
-      Utils.jsonToExcel(this.originData, this.fileName)
+      jsonToExcel(this.originData, this.fileName)
     },
     buildDataSuccess () {
       this.$emit('buildDataSuccess')

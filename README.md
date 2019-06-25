@@ -12,8 +12,10 @@ npm install --save export-excel-eug
 
 2. 在vue入口文件处全局使用该插件
 ```js
-import UniSoftUI from 'unisoft-ui'
-Vue.use(UniSoftUI)
+import ExportExcelEug from 'export-excel-eug'
+exportExcelEug.forEach(key => {
+  Vue.use(key)
+})
 ```
 
 3. api
@@ -24,3 +26,5 @@ Vue.use(UniSoftUI)
 
 * startExport  // 组件内部导出excel方法
 * @buildDataSuccess // 导出数据就绪通知
+
+具体参照测试项目: [test-export-excel-eug](https://github.com/EugeneHuang9638/test-export-excel-eug.git)

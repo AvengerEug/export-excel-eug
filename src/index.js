@@ -1,1 +1,3 @@
-import './install-component'
+import Components from './install-component'
+
+export default Components
