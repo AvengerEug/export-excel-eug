@@ -1,5 +1,7 @@
 import ExportExcelEug from './exportExcelEug'
 
-export default {
+const components = [
   ExportExcelEug
-}
+]
+
+export default components
